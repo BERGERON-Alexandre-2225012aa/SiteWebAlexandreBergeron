@@ -9,7 +9,7 @@ function body() { ?>
             <br>J'ai 18 ans, et je suis passionné d'informatique.
         </label>
     </div>
-    <div class="accueilDiv reveal">
+    <div class="accueilDiv">
         <label class="accueilLabel">
             Je suis actuellement en 2ème année de BUT informatique à l'Institut Universitaire de Technologies d'Aix-en-Provence.
         </label>
