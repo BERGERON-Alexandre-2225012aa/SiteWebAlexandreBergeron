@@ -1,6 +1,6 @@
 <?php
 
-require '../controllers/utils.inc.php';
+require '../view-models/utils.inc.php';
 
 start_page('Contacts');
 

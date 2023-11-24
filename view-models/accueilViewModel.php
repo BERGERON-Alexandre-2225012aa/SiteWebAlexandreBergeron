@@ -15,5 +15,11 @@ function body() { ?>
         </label>
         <img class="accueilImg" src="../ressources/images/iut.jpg">
     </div>
+    <div class="accueilDiv reveal">
+        <img class="accueilImg" src="../ressources/images/codage.jpg">
+        <label class="accueilLabel">
+            J'ai des compétences en programmation :
+        </label>
+    </div>
 
 <?php } ?>

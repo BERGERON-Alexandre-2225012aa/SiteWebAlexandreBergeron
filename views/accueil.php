@@ -1,7 +1,7 @@
 <?php
 
-require '../controllers/utils.inc.php';
-require '../controllers/accueilController.php';
+require '../view-models/utils.inc.php';
+require '../view-models/accueilViewModel.php';
 
 start_page('Accueil');
 

@@ -11,7 +11,7 @@ function start_page($title) { ?>
         <meta name="description" content="<?php echo $title ?>">
         <link rel="stylesheet" href="../ressources/styles/style.css">
         <script src="../ressources/styles/transition.js" defer></script>
-        <title><?php echo $title ?></title>
+        <title>A. Bergeron - <?php echo $title ?></title>
     </head>
 
     <body>
