@@ -10,7 +10,7 @@ function start_page($title) { ?>
         <meta name="titre" content="<?php echo $title ?>">
         <meta name="description" content="<?php echo $title ?>">
         <link rel="stylesheet" href="../ressources/styles/style.css">
-        <script src="../ressources/styles/transition.js" defer></script>
+        <script src="../ressources/styles/effets.js" defer></script>
         <title>A. Bergeron - <?php echo $title ?></title>
     </head>
 

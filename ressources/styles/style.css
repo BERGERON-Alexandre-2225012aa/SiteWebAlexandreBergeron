@@ -1,17 +1,21 @@
 body {
     margin: 0;
-    background-color: #CAF0F8;
+    background: linear-gradient(to bottom, #CAF0F8, #00B4D8);
 }
 
 ::-webkit-scrollbar {
-    border: solid;
-    background-color: #90E0EF;
+    position: fixed;
+    width: 10px;
+    border-left: solid;
+    border-width: 2px;
+    background: linear-gradient(to bottom, #CAF0F8, #00B4D8);
 }
 
 ::-webkit-scrollbar-thumb {
     background: #00B4D8;
     border: solid;
     border-radius: 10px;
+    border-width: 1px;
 }
 
 header {
@@ -21,6 +25,7 @@ header {
     background-color: #00B4D8;
     border-bottom: solid;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .headerLabel {
@@ -73,27 +78,58 @@ header {
 .accueilDiv {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 3%;
+}
+
+.gradientWord {
+    background: -webkit-linear-gradient(left, #90E0EF, lightgreen);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
 }
 
 .accueilImg {
-    font-size: 40px;
     display: flex;
     align-items: center;
     margin: 2%;
     background-color: #90E0EF;
     width: 50%;
-    border: solid;
-    box-shadow: 10px 10px black;
 }
 
 .accueilLabel {
-    font-size: 40px;
-    display: flex;
+    margin: 2%;
+    background: #0077B6;
+    font-size: 30px;
+    font-family: Consolas;
+    color: white;
+    display: block;
     align-items: center;
     padding-top: 0px;
-    margin: 0px;
     padding: 5%;
     width: 50%;
+    height: 100%;
+    text-shadow: -1px 0 #03045E, 0 1px #03045E, 1px 0 #03045E, 0 -1px #03045E;
+}
+
+.left {
+    box-shadow: -10px -10px black;
+}
+
+.right {
+    box-shadow: 10px 10px black;
+}
+
+.accueilSkillDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skillStarsDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* FOOTER */
