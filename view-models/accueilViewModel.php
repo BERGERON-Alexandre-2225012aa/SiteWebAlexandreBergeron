@@ -8,9 +8,9 @@ function body() { ?>
             <br>
             <br>J'ai 18 ans, et je suis passionné d'informatique.
             <br>
-            <br><label class="gradientWord">Motivé</label>,
-            <label class="gradientWord">Rigoureux</label> et
-            <label class="gradientWord">Organisé</label> dans mon travail,
+            <br><label class="gradientWord"><b>Motivé</b></label>,
+            <label class="gradientWord"><b>Rigoureux</b></label> et
+            <label class="gradientWord"><b>Organisé</b></label> dans mon travail,
             je suis un atout primordial pour les équipes avec qui je travaille.
         </label>
     </div>
@@ -30,71 +30,81 @@ function body() { ?>
             <div class="accueilSkillDiv">
                 <label>Java</label>
                 <div class="skillStarsDiv">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
                 </div>
             </div>
             <div class="accueilSkillDiv">
                 <label>C++</label>
                 <div class="skillStarsDiv">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-grise.png" class="skillStarsImg">
                 </div>
             </div>
             <div class="accueilSkillDiv">
                 <label>Python</label>
                 <div class="skillStarsDiv">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
                 </div>
             </div>
             <div class="accueilSkillDiv">
                 <label>HTML</label>
                 <div class="skillStarsDiv">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-grise.png" class="skillStarsImg">
                 </div>
             </div>
             <div class="accueilSkillDiv">
                 <label>CSS</label>
                 <div class="skillStarsDiv">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-grise.png" class="skillStarsImg">
                 </div>
             </div>
             <div class="accueilSkillDiv">
                 <label>JavaScript</label>
                 <div class="skillStarsDiv">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-grise.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-grise.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-grise.png" class="skillStarsImg">
                 </div>
             </div>
             <div class="accueilSkillDiv">
                 <label>PHP</label>
                 <div class="skillStarsDiv">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-grise.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-grise.png" class="skillStarsImg">
                 </div>
             </div>
             <div class="accueilSkillDiv">
                 <label>SQL</label>
                 <div class="skillStarsDiv">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
-                    <img src="../ressources/images/etoile-jaune.png" width="60">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-grise.png" class="skillStarsImg">
+                    <img src="../ressources/images/etoile-grise.png" class="skillStarsImg">
                 </div>
             </div>
 

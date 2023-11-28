@@ -1,35 +1,21 @@
 body {
     margin: 0;
-    background: linear-gradient(to bottom, #CAF0F8, #00B4D8);
-}
-
-::-webkit-scrollbar {
-    position: fixed;
-    width: 10px;
-    border-left: solid;
-    border-width: 2px;
-    background: linear-gradient(to bottom, #CAF0F8, #00B4D8);
-}
-
-::-webkit-scrollbar-thumb {
-    background: #00B4D8;
-    border: solid;
-    border-radius: 10px;
-    border-width: 1px;
+    background: #F8F9FA;
 }
 
 header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: #00B4D8;
+    background-color: #495057;
+    background-size: 100%;
     border-bottom: solid;
     width: 100%;
     margin-bottom: 20px;
 }
 
 .headerLabel {
-    font-size: 35px;
+    font-size: 2vw;
     padding-left: 20px;
     padding-right: 20px;
     width: 100%;
@@ -43,22 +29,22 @@ header {
 
 .headerButton {
     border: none;
-    font-size: 30px;
+    font-size: 2vw;
     margin: 0px;
     padding: 20px;
     padding-right: 5%;
     padding-left: 5%;
-    background-color: #00B4D8;
+    background-color: #495057;
     outline: none;
     color: white;
 }
 
 .headerButton:hover {
-    background-color: #90E0EF;
+    background-color: #6C757D;
 }
 
 .headerButton:focus {
-    background-color: #90E0EF;
+    background-color: #6C757D;
 }
 
 /* REVEAL */
@@ -83,41 +69,44 @@ header {
 }
 
 .gradientWord {
-    background: -webkit-linear-gradient(left, #90E0EF, lightgreen);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: none;
+    color: #495057;
 }
 
 .accueilImg {
     display: flex;
     align-items: center;
     margin: 2%;
-    background-color: #90E0EF;
     width: 50%;
+    border-radius: 2%;
 }
 
 .accueilLabel {
     margin: 2%;
-    background: #0077B6;
-    font-size: 30px;
+    background: #ADB5BD;
+    font-size: 2vw;
     font-family: Consolas;
-    color: white;
+    color: #212529;
     display: block;
     align-items: center;
     padding-top: 0px;
     padding: 5%;
     width: 50%;
     height: 100%;
-    text-shadow: -1px 0 #03045E, 0 1px #03045E, 1px 0 #03045E, 0 -1px #03045E;
+    border-radius: 10px;
+    border: solid;
+    border-color: #343A40;
 }
 
 .left {
-    box-shadow: -10px -10px black;
+    box-shadow: -10px 10px #6C757D;
 }
 
 .right {
-    box-shadow: 10px 10px black;
+    box-shadow: 10px 10px #6C757D;
+}
+
+.skillStarsImg {
+    width: 3.5vw;
 }
 
 .accueilSkillDiv {
@@ -135,7 +124,7 @@ header {
 /* FOOTER */
 
 footer {
-    background-color: #0077B6;
+    background-color: #495057;
     border-top: solid;
     display: flex;
     justify-content: space-between;
@@ -144,7 +133,7 @@ footer {
 }
 
 .footerLabel {
-    font-size: 25px;
+    font-size: 2vw;
     padding-left: 20px;
     padding-right: 20px;
     padding: 10px;
