@@ -1,17 +1,28 @@
 body {
     margin: 0;
-    background: #F8F9FA;
+    background: #1B1B1B;
+    font-family: "Microsoft JhengHei UI";
+}
+
+::-webkit-scrollbar {
+    display: none;
+    width: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    display: none;
+    width: 0;
 }
 
 header {
     display: flex;
     justify-content: flex-start;
+    position: sticky;
+    z-index: 1;
     align-items: center;
-    background-color: #495057;
     background-size: 100%;
-    border-bottom: solid;
+    background-color: #1B1B1B;
     width: 100%;
-    margin-bottom: 20px;
 }
 
 .headerLabel {
@@ -19,6 +30,7 @@ header {
     padding-left: 20px;
     padding-right: 20px;
     width: 100%;
+    color: #00FF41;
 }
 
 .headerDiv {
@@ -28,23 +40,25 @@ header {
 }
 
 .headerButton {
-    border: none;
     font-size: 2vw;
+    font-family: "Microsoft JhengHei UI";
     margin: 0px;
     padding: 20px;
     padding-right: 5%;
     padding-left: 5%;
-    background-color: #495057;
-    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
     color: white;
+    transition: 0.8s;
+    cursor: pointer;
 }
 
 .headerButton:hover {
-    background-color: #6C757D;
+    color: #00FF41;
 }
 
 .headerButton:focus {
-    background-color: #6C757D;
+    color: #00FF41;
 }
 
 /* REVEAL */
@@ -61,11 +75,21 @@ header {
 
 /* Accueil */
 
+.container {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+
 .accueilDiv {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-bottom: 3%;
+    border-bottom: solid 5px;
+    height: 100vh;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+    border-right: solid;
 }
 
 .gradientWord {
@@ -75,26 +99,24 @@ header {
 .accueilImg {
     display: flex;
     align-items: center;
-    margin: 2%;
-    width: 50%;
-    border-radius: 2%;
+    width: 100vh;
+    border-radius: 10px;
+    margin: 2vh;
 }
 
 .accueilLabel {
-    margin: 2%;
     background: #ADB5BD;
     font-size: 2vw;
-    font-family: Consolas;
     color: #212529;
     display: block;
     align-items: center;
-    padding-top: 0px;
-    padding: 5%;
-    width: 50%;
-    height: 100%;
+    width: 100vh;
+    height: 90vh;
     border-radius: 10px;
     border: solid;
     border-color: #343A40;
+    margin: 2vh;
+    padding:2vh;
 }
 
 .left {
@@ -119,23 +141,5 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-/* FOOTER */
-
-footer {
-    background-color: #495057;
-    border-top: solid;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-.footerLabel {
-    font-size: 2vw;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding: 10px;
 }
 
