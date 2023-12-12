@@ -177,18 +177,21 @@ header {
 .allSkills {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    width: 100vw;
+    overflow: auto;
 }
 
 .skillBox {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 5vh;
-    margin: 5vh;
+    padding: 2vw;
+    margin: 2vw;
     background-color: rgba(27, 27, 27, 0.8);
-    height: 35vh;
+    height: 100%;
     box-shadow: 1vh 1vh 1vh black;
+    width: 35vw;
 }
 
 .skillBoxSkills {
@@ -196,19 +199,20 @@ header {
     flex-direction: column;
     justify-content: center;
     height: 100%;
+    overflow-y: hidden;
 }
 
 .oneSkill {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 2vh;
+    padding-bottom: 2vw;
 }
 
 .skillName {
     color: white;
     font-size: 1.5vw;
-    padding-right: 2vh;
+    padding-right: 2vw;
 }
 
 #webSkill {
@@ -238,6 +242,7 @@ header {
 .key {
     width: 5vw;
     opacity: 0;
+    transition: 1s;
     position: absolute;
     z-index: 10;
 }
@@ -259,7 +264,8 @@ header {
 }
 
 #key4 {
-    top: 30%;
+    width: 4vw;
+    top: 27%;
     left: 5%;
 }
 
