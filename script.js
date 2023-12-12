@@ -79,3 +79,15 @@ function checkKey8() {
     element.src = "ressources/images/keyCheck.png";
     elementFixed.src = "ressources/images/keyCheck.png";
 }
+
+function moveKeys() {
+    var key1 = document.getElementById("keyFixed1");
+    var key2 = document.getElementById("keyFixed2");
+    var key3 = document.getElementById("keyFixed3");
+    var key4 = document.getElementById("keyFixed4");
+    var key5 = document.getElementById("keyFixed5");
+    var key6 = document.getElementById("keyFixed6");
+    var key7 = document.getElementById("keyFixed7");
+    var key8 = document.getElementById("keyFixed8");
+
+}

@@ -281,43 +281,437 @@ iframe {
 }
 
 #keyFixed1 {
+    top: 25%;
     right: 40%;
-    top: 42.5%;
+    animation: keyOne 3s infinite;
 }
 
 #keyFixed2 {
-    right: 35%;
-    top: 25%;
+    top: 10%;
+    right: 30%;
+    animation: keyTwo 3s infinite;
 }
 
 #keyFixed3 {
-    right: 27.5%;
-    top: 15%;
+    top: 10%;
+    right: 20%;
+    animation: keyThree 3s infinite;
 }
 
 #keyFixed4 {
-    right: 20%;
     top: 25%;
+    right: 10%;
+    animation: keyFour 3s infinite;
 }
 
 #keyFixed5 {
-    right: 15%;
-    top: 42.5%;
+    top: 55%;
+    right: 10%;
+    animation: keyFive 3s infinite;
 }
 
 #keyFixed6 {
+    top: 70%;
     right: 20%;
-    top: 57.5%;
+    animation: keySix 3s infinite;
 }
 
 #keyFixed7 {
-    top: 67.5%;
-    right: 27.5%;
+    top: 70%;
+    right: 30%;
+    animation: keySeven 3s infinite;
 }
 
 #keyFixed8 {
-    top: 57.5%;
-    right: 35%;
+    top: 55%;
+    right: 40%;
+    animation: keyEight 3s infinite;
+}
+
+@keyframes keyOne {
+    0% {
+        /* 1 */
+        top: 25%;
+        right: 40%;
+    }
+    12.5% {
+        /* 2 */
+        top: 10%;
+        right: 30%;
+    }
+    25% {
+        /* 3 */
+        top:10%;
+        right:20%;
+    }
+    37.5% {
+        /* 4 */
+        top: 25%;
+        right: 10%;
+    }
+    50% {
+        /* 5 */
+        top:55%;
+        right: 10%;
+    }
+    62.5% {
+        /* 6 */
+        top:70%;
+        right: 20%;
+    }
+    75% {
+        /* 7 */
+        top:70%;
+        right: 30%;
+    }
+    87.5% {
+        /* 8 */
+        top:55%;
+        right: 40%;
+
+    }
+    100% {
+        /* 1 */
+        top:25%;
+        right: 40%;
+    }
+}
+
+@keyframes keyTwo {
+    0% {
+        /* 2 */
+        top: 10%;
+        right: 30%;
+    }
+    12.5% {
+        /* 3 */
+        top:10%;
+        right:20%;
+    }
+    25% {
+        /* 4 */
+        top: 25%;
+        right: 10%;
+    }
+    37.5% {
+        /* 5 */
+        top:55%;
+        right: 10%;
+    }
+    50% {
+        /* 6 */
+        top:70%;
+        right: 20%;
+    }
+    62.5% {
+        /* 7 */
+        top:70%;
+        right: 30%;
+    }
+    75% {
+        /* 8 */
+        top:55%;
+        right: 40%;
+
+    }
+    87.5% {
+        /* 1 */
+        top:25%;
+        right: 40%;
+    }
+    100% {
+        /* 2 */
+        top: 10%;
+        right: 30%;
+    }
+}
+
+@keyframes keyThree {
+    0% {
+        /* 3 */
+        top:10%;
+        right:20%;
+    }
+    12.5% {
+        /* 4 */
+        top: 25%;
+        right: 10%;
+    }
+    25% {
+        /* 5 */
+        top:55%;
+        right: 10%;
+    }
+    37.5% {
+        /* 6 */
+        top:70%;
+        right: 20%;
+    }
+    50% {
+        /* 7 */
+        top:70%;
+        right: 30%;
+    }
+    62.5% {
+        /* 8 */
+        top:55%;
+        right: 40%;
+    }
+    75% {
+        /* 1 */
+        top:25%;
+        right: 40%;
+    }
+    87.5% {
+        /* 2 */
+        top: 10%;
+        right: 30%;
+    }
+    100% {
+        /* 3 */
+        top:10%;
+        right:20%;
+    }
+}
+
+@keyframes keyFour {
+    0% {
+        /* 4 */
+        top: 25%;
+        right: 10%;
+    }
+    12.5% {
+        /* 5 */
+        top:55%;
+        right: 10%;
+    }
+    25% {
+        /* 6 */
+        top:70%;
+        right: 20%;
+    }
+    37.5% {
+        /* 7 */
+        top:70%;
+        right: 30%;
+    }
+    50% {
+        /* 8 */
+        top:55%;
+        right: 40%;
+    }
+    62.5% {
+        /* 1 */
+        top:25%;
+        right: 40%;
+    }
+    75% {
+        /* 2 */
+        top: 10%;
+        right: 30%;
+    }
+    87.5% {
+        /* 3 */
+        top:10%;
+        right:20%;
+    }
+    100% {
+        /* 4 */
+        top: 25%;
+        right: 10%;
+    }
+}
+
+@keyframes keyFive {
+    0% {
+        /* 5 */
+        top:55%;
+        right: 10%;
+    }
+    12.5% {
+        /* 6 */
+        top:70%;
+        right: 20%;
+    }
+    25% {
+        /* 7 */
+        top:70%;
+        right: 30%;
+    }
+    37.5% {
+        /* 8 */
+        top:55%;
+        right: 40%;
+    }
+    50% {
+        /* 1 */
+        top:25%;
+        right: 40%;
+    }
+    62.5% {
+        /* 2 */
+        top: 10%;
+        right: 30%;
+    }
+    75% {
+        /* 3 */
+        top:10%;
+        right:20%;
+    }
+    87.5% {
+        /* 4 */
+        top: 25%;
+        right: 10%;
+    }
+    100% {
+        /* 5 */
+        top:55%;
+        right: 10%;
+    }
+}
+
+@keyframes keySix {
+    0% {
+        /* 6 */
+        top:70%;
+        right: 20%;
+    }
+    12.5% {
+        /* 7 */
+        top:70%;
+        right: 30%;
+    }
+    25% {
+        /* 8 */
+        top:55%;
+        right: 40%;
+    }
+    37.5% {
+        /* 1 */
+        top:25%;
+        right: 40%;
+    }
+    50% {
+        /* 2 */
+        top: 10%;
+        right: 30%;
+    }
+    62.5% {
+        /* 3 */
+        top:10%;
+        right:20%;
+    }
+    75% {
+        /* 4 */
+        top: 25%;
+        right: 10%;
+    }
+    87.5% {
+        /* 5 */
+        top:55%;
+        right: 10%;
+    }
+    100% {
+        /* 6 */
+        top:70%;
+        right: 20%;
+    }
+}
+
+@keyframes keySeven {
+    0% {
+        /* 7 */
+        top:70%;
+        right: 30%;
+    }
+    12.5% {
+        /* 8 */
+        top:55%;
+        right: 40%;
+    }
+    25% {
+        /* 1 */
+        top:25%;
+        right: 40%;
+    }
+    37.5% {
+        /* 2 */
+        top: 10%;
+        right: 30%;
+    }
+    50% {
+        /* 3 */
+        top:10%;
+        right:20%;
+    }
+    62.5% {
+        /* 4 */
+        top: 25%;
+        right: 10%;
+    }
+    75% {
+        /* 5 */
+        top:55%;
+        right: 10%;
+    }
+    87.5% {
+        /* 6 */
+        top:70%;
+        right: 20%;
+    }
+    100% {
+        /* 7 */
+        top:70%;
+        right: 30%;
+    }
+}
+
+@keyframes keyEight {
+    0% {
+        /* 8 */
+        top:55%;
+        right: 40%;
+    }
+    12.5% {
+        /* 1 */
+        top:25%;
+        right: 40%;
+    }
+    25% {
+        /* 2 */
+        top: 10%;
+        right: 30%;
+    }
+    37.5% {
+        /* 3 */
+        top:10%;
+        right:20%;
+    }
+    50% {
+        /* 4 */
+        top: 25%;
+        right: 10%;
+    }
+    62.5% {
+        /* 5 */
+        top:55%;
+        right: 10%;
+    }
+    75% {
+        /* 6 */
+        top:70%;
+        right: 20%;
+    }
+    87.5% {
+        /* 7 */
+        top:70%;
+        right: 30%;
+    }
+    100% {
+        /* 8 */
+        top:55%;
+        right: 40%;
+    }
 }
 
 .key {
