@@ -24,7 +24,22 @@ document.querySelectorAll('.reveal').forEach(function (r) {
 
 // Changer image key
 
-function checkKey() {
-
+function checkKey1() {
+    var element = document.getElementById("key1");
+    element.src = "ressources/images/keyCheck.png";
 }
 
+function checkKey2() {
+    var element = document.getElementById("key2");
+    element.src = "ressources/images/keyCheck.png";
+}
+
+function checkKey3() {
+    var element = document.getElementById("key3");
+    element.src = "ressources/images/keyCheck.png";
+}
+
+function checkKey4() {
+    var element = document.getElementById("key4");
+    element.src = "ressources/images/keyCheck.png";
+}

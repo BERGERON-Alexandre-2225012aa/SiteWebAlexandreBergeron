@@ -13,7 +13,7 @@
 <body>
 <header>
     <label class="headerLabel">A. Bergeron</label>
-    <img class="key" src="ressources/images/key.png" onclick="checkKey()">
+    <img id="key1" class="key" src="ressources/images/key.png" onclick="checkKey1()">
     <div class="headerDiv">
         <button class="headerButton" onclick="window.location.href='index.html'">Accueil</button>
         <button class="headerButton" onclick="window.location.href='projets.html'">Projets</button>
@@ -24,6 +24,7 @@
 <div class="accueilDiv">
     <div class="backgroundDiv right">
         <img class="accueilImg" src="ressources/images/alexandre_lavandes.jpg">
+        <img id="key2" class="key" src="ressources/images/key.png" onclick="checkKey2()">
     </div>
     <label class="accueilLabel rightLabel greenLabel reveal">
         Bonjour, je suis Alexandre Bergeron !
@@ -44,99 +45,107 @@
     </label>
     <div class="backgroundDiv left">
         <img class="accueilImg" src="ressources/images/iut.jpg">
+        <img id="key3" class="key" src="ressources/images/key.png" onclick="checkKey3()">
     </div>
 </div>
 <div class="accueilDiv">
     <div class="skills">
         <label class="skillsTitle">Mes compétences</label>
         <div class="allSkills">
-            <div class="skillBox">
-                <label class="skillsTitle">Web</label>
-                <div class="oneSkill">
-                    <label class="skillName">HTML</label>
-                    <div class="skillStarsDiv">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-grise.png" class="skillStarsImg">
+            <div class="skillBox reveal">
+                <label id="webSkill" class="skillsTitle">Web</label>
+                <div class="skillBoxSkills">
+                    <div class="oneSkill">
+                        <label class="skillName">HTML</label>
+                        <div class="skillStarsDiv">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-grise.png" class="skillStarsImg">
+                        </div>
                     </div>
-                </div>
-                <div class="oneSkill">
-                    <label class="skillName">CSS</label>
-                    <div class="skillStarsDiv">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-grise.png" class="skillStarsImg">
+                    <div class="oneSkill">
+                        <label class="skillName">CSS</label>
+                        <div class="skillStarsDiv">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-grise.png" class="skillStarsImg">
+                        </div>
                     </div>
-                </div>
-                <div class="oneSkill">
-                    <label class="skillName">JavaScript</label>
-                    <div class="skillStarsDiv">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-grise.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-grise.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-grise.png" class="skillStarsImg">
-                    </div>
-                </div>
-            </div>
-            <div class="skillBox">
-                <label class="skillsTitle">Bases de données</label>
-                <div class="oneSkill">
-                    <label class="skillName">PHP</label>
-                    <div class="skillStarsDiv">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-grise.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-grise.png" class="skillStarsImg">
-                    </div>
-                </div>
-                <div class="oneSkill">
-                    <label class="skillName">SQL</label>
-                    <div class="skillStarsDiv">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-grise.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-grise.png" class="skillStarsImg">
+                    <div class="oneSkill">
+                        <label class="skillName">JavaScript</label>
+                        <div class="skillStarsDiv">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-grise.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-grise.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-grise.png" class="skillStarsImg">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="skillBox">
-                <label class="skillsTitle">Programmation</label>
-                <div class="oneSkill">
-                    <label class="skillName">Java</label>
-                    <div class="skillStarsDiv">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+            <div class="skillBox reveal">
+                <label id="bddSkill" class="skillsTitle">Bases de données</label>
+                <div class="skillBoxSkills">
+                    <div class="oneSkill">
+                        <label class="skillName">PHP</label>
+                        <div class="skillStarsDiv">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-grise.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-grise.png" class="skillStarsImg">
+                        </div>
+                    </div>
+                    <div class="oneSkill">
+                        <label class="skillName">SQL</label>
+                        <div class="skillStarsDiv">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-grise.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-grise.png" class="skillStarsImg">
+                        </div>
                     </div>
                 </div>
-                <div class="oneSkill">
-                    <label class="skillName">C++</label>
-                    <div class="skillStarsDiv">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-grise.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-grise.png" class="skillStarsImg">
+            </div>
+            <div class="skillBox reveal">
+                <label id="progSkill" class="skillsTitle">Programmation</label>
+                <div class="skillBoxSkills">
+                    <div class="oneSkill">
+                        <label class="skillName">Java</label>
+                        <div class="skillStarsDiv">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                        </div>
                     </div>
-                </div>
-                <div class="oneSkill">
-                    <label class="skillName">Python</label>
-                    <div class="skillStarsDiv">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
-                        <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                    <div class="oneSkill">
+                        <label class="skillName">C++</label>
+                        <div class="skillStarsDiv">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-grise.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-grise.png" class="skillStarsImg">
+                        </div>
                     </div>
+                    <div class="oneSkill">
+                        <label class="skillName">Python</label>
+                        <div class="skillStarsDiv">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                            <img src="ressources/images/etoile-jaune.png" class="skillStarsImg">
+                        </div>
+                    </div>
+                    <img id="key4" class="key" src="ressources/images/key.png" onclick="checkKey4()">
                 </div>
             </div>
         </div>
