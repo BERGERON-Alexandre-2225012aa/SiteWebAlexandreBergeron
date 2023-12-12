@@ -1,3 +1,5 @@
+// REVEAL
+
 const ratio = .1
 const options = {
     root: null,
@@ -19,3 +21,10 @@ const observer = new IntersectionObserver(handleIntersect, options)
 document.querySelectorAll('.reveal').forEach(function (r) {
     observer.observe(r)
 })
+
+// Changer image key
+
+function checkKey() {
+
+}
+

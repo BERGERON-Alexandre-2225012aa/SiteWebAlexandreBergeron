@@ -6,13 +6,14 @@
     <meta name="titre" content="Accueil">
     <meta name="description" content="Accueil">
     <link rel="stylesheet" href="ressources/styles/style.css">
-    <script src="ressources/styles/effets.js" defer></script>
+    <script src="script.js" defer></script>
     <title>A. Bergeron - Accueil</title>
 </head>
 
 <body>
 <header>
     <label class="headerLabel">A. Bergeron</label>
+    <img class="key" src="ressources/images/key.png" onclick="checkKey()">
     <div class="headerDiv">
         <button class="headerButton" onclick="window.location.href='index.html'">Accueil</button>
         <button class="headerButton" onclick="window.location.href='projets.html'">Projets</button>
@@ -22,7 +23,7 @@
 
 <div class="accueilDiv">
     <div class="backgroundDiv right">
-        <img class="accueilImg" src="../ressources/images/alexandre_lavandes.jpg">
+        <img class="accueilImg" src="ressources/images/alexandre_lavandes.jpg">
     </div>
     <label class="accueilLabel rightLabel greenLabel reveal">
         Bonjour, je suis Alexandre Bergeron !
@@ -46,7 +47,7 @@
     </div>
 </div>
 <div class="accueilDiv">
-    <div class="backgroundDiv left">
+    <div class="skills">
         <label class="skillsTitle">Mes compétences</label>
         <div class="allSkills">
             <div class="skillBox">
