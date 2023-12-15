@@ -824,6 +824,10 @@ iframe {
     box-shadow: 1vh 1vh 1vh black;
 }
 
+.pokedexProjectImage {
+    width: 15vw;
+}
+
 .projectImageDiv {
     display: flex;
     justify-content: space-around;
