@@ -38,8 +38,8 @@ header {
 
 .headerLabel {
     font-size: 2vw;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 4vw;
+    padding-right: 4vw;
     display: flex;
     justify-content: flex-start;
     width: 100%;
@@ -56,8 +56,8 @@ header {
     font-size: 2vw;
     font-family: "Microsoft JhengHei UI";
     margin: 0px;
-    padding-right: 5vh;
-    padding-left: 5vh;
+    padding-right: 4vw;
+    padding-left: 4vw;
     background-color: rgba(0, 0, 0, 0);
     border: none;
     color: white;
@@ -834,4 +834,42 @@ iframe {
     width: 100%;
     padding-top: 2vw;
     padding-bottom: 2vw;
+}
+
+/* Contacts */
+
+.contactBackground {
+    background-color: #272727;
+}
+
+.contactImage {
+    position: absolute;
+    right: 5%;
+    width: 35vw;
+    height: auto;
+    box-shadow: 1vh 1vh 1vh black;
+}
+
+.contactDiv {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactLabel {
+    background-color: #272727;
+    font-size: 1.5vw;
+    z-index: 10;
+    display: block;
+    align-items: center;
+    width: 50vw;
+    max-width: 50%;
+    height: auto;
+    padding:2vw;
+    text-align: center;
+    box-shadow: 0 0 1vh 1vh #1B1B1B;
+    margin: 3vw;
 }
