@@ -73,6 +73,28 @@ header {
     color: #00FF41;
 }
 
+.headerButton::after {
+    content: "";
+    height: 0.15vw;
+    width: 100%;
+    background-color: #00FF41;
+    display: block;
+    opacity: 0;
+    transition: 0.8s;
+    transition-timing-function: ease-in-out;
+    transform: scale(0);
+}
+
+.headerButton:focus::after,
+.headerButton:hover::after {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.currentPageButton{
+    color: #00FF41;
+}
+
 /* REVEAL */
 .reveal {
     opacity: 0;
@@ -755,7 +777,7 @@ iframe {
 }
 
 #key7 {
-    left: 31.5%;
+    left: 27.3%;
 }
 
 #key8 {
@@ -863,7 +885,8 @@ iframe {
     background-color: #272727;
     font-size: 1.5vw;
     z-index: 10;
-    display: block;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     width: 50vw;
     max-width: 50%;
@@ -872,4 +895,15 @@ iframe {
     text-align: center;
     box-shadow: 0 0 1vh 1vh #1B1B1B;
     margin: 3vw;
+}
+
+.contactTitleDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 2vw;
+    margin-left: 1vw;
 }

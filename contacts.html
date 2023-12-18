@@ -17,15 +17,30 @@
     <div class="headerDiv">
         <button class="headerButton" onclick="window.location.href='index.html'">Accueil</button>
         <button class="headerButton" onclick="window.location.href='projets.html'">Projets</button>
-        <button class="headerButton" onclick="window.location.href='contacts.html'">Contacts</button>
+        <button class="headerButton currentPageButton" onclick="window.location.href='contacts.html'">Contacts</button>
     </div>
 </header>
 
 <div class="mainDiv contactBackground">
     <div class="contactDiv">
-        <label class="contactLabel greenLabel reveal">Téléphone</label>
-        <label class="contactLabel greenLabel reveal">Mail</label>
-        <label class="contactLabel greenLabel reveal">LinkedIn</label>
+        <label class="contactLabel greenLabel reveal">
+            <div class="contactTitleDiv">
+                Téléphone <img src="ressources/images/telephone_logo.png" class="icon">
+            </div>
+            <br><a href="tel:+33641413958" class="importantWord">06 41 41 39 58</a>
+        </label>
+        <label class="contactLabel greenLabel reveal">
+            <div class="contactTitleDiv">
+                E-mail <img src="ressources/images/gmail_logo.png" class="icon">
+            </div>
+            <br><a href="mailto:alexandrebergeron12@gmail.com" class="importantWord">alexandrebergeron12@gmail.com</a>
+        </label>
+        <label class="contactLabel greenLabel reveal">
+            <div class="contactTitleDiv">
+                LinkedIn <img src="ressources/images/LinkedIn_logo.png" class="icon">
+            </div>
+            <br><a href="https://www.linkedin.com/in/alexandre-bergeron-2901542a0/" class="importantWord">Alexandre Bergeron</a>
+        </label>
     </div>
     <img class="contactImage reveal" src="ressources/images/alexandre_mer_2.jpg">
 </div>
