@@ -1,0 +1,132 @@
+.left {
+    justify-content: flex-start;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.middle {
+    justify-content: center;
+}
+
+.accueilImg {
+    height: auto;
+    width: 50%;
+}
+
+.accueilLabel {
+    background: rgba(27, 27, 27, 0.8);
+    font-size: 1.8vw;
+    z-index: 10;
+    position: absolute;
+    display: block;
+    align-items: center;
+    width: 100vh;
+    max-width: 50%;
+    height: auto;
+    padding:4vw;
+    text-align: center;
+}
+
+.leftLabel {
+    left: 40%
+}
+
+.rightLabel {
+    right: 40%;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #272727;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.skillsTitle {
+    color: white;
+    font-size: 1.8vw;
+    text-align: center;
+    padding-bottom: 5vh;
+}
+
+.allSkills {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    overflow: auto;
+}
+
+.skillBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2vw;
+    margin: 2vw;
+    background-color: rgba(27, 27, 27, 0.8);
+    height: 100%;
+    box-shadow: 1vh 1vh 1vh black;
+    width: 35vw;
+}
+
+.skillBoxSkills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.oneSkill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 2vw;
+}
+
+.skillName {
+    color: white;
+    font-size: 1.5vw;
+    padding-right: 2vw;
+}
+
+#webSkill {
+    color: cornflowerblue;
+}
+
+#bddSkill {
+    color: orange;
+}
+
+#progSkill {
+    color: red;
+}
+
+.skillStarsDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillStarsImg {
+    width: 3vw;
+}
+
+iframe {
+    margin: 5vw;
+    width: 50vw;
+    height: 60vh;
+    box-shadow: 1vh 1vh 1vh black;
+}
+
+.youtubeLabel {
+    width: 30%;
+    left: 5%;
+    background-color: #1B1B1B;
+    box-shadow: -1vh 1vh 1vh black;
+}
