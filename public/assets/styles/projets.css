@@ -78,6 +78,7 @@
 .phoneProjectImage {
     width: 12vw;
     position: absolute;
+    border-radius: 30px;
 }
 
 .projectImage:hover {

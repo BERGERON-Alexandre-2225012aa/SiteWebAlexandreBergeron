@@ -22,7 +22,7 @@ class Projets
                             <br>Le jeu se présente sous la forme d'un <label class="importantWord">quiz interactif et animé</label>.
                             Une interface administrateur est également disponible afin de permettre aux organisateurs de gérer les questions du quiz stockées dans la <label class="importantWord">base de données</label> du site.
                             <br> <br> Projet réalisé dans un cadre scolaire en collaboration avec BIHI Ayoub, BOUT Thomas, HOSPITAL Jules et LOUARN Mathis en utilisant la <label class="importantWord">méthode Agile</label>.
-                            <br> <br> Site en ligne accessible <a class="importantWord" href="https://spartiatejeu.alwaysdata.net/">ici</a>.
+                            <br> <br> Site en ligne accessible <a class="importantWord" href="https://spartiatejeu.alwaysdata.net/">ici</a> (mobile uniquement).
                         </label>
                     </div>
                     <div class="imageContainer">
@@ -54,8 +54,8 @@ class Projets
                             <br>
                             Croustagram est un réseau social accessible depuis le <label class="importantWord">Web</label> développé en <label class="importantWord">PHP</label>, <label class="importantWord">HTML</label>, <label class="importantWord">CSS</label> et <label class="importantWord">JavaScript</label>.
                             Chaque utilisateur inscrit a accès aux fonctionnalités d'un réseau social classique : poster, commenter, voter...
-                            <br> <br> <br> <br> Projet réalisé dans un cadre scolaire en collaboration avec GOUACHE Nathan, GINER Léo, LEPERLIER Maël, SALOMON Clément et SEJOURNE Victor.
-                            <br> <br> <br> Site en ligne accessible <a class="importantWord" href="https://thecroustagram.alwaysdata.net/">ici</a>.
+                            <br> <br> <br> <br> <br> Projet réalisé dans un cadre scolaire en collaboration avec GOUACHE Nathan, GINER Léo, LEPERLIER Maël, SALOMON Clément et SEJOURNE Victor.
+                            <br> <br> <br> <br> <br> <br> Site en ligne accessible <a class="importantWord" href="https://thecroustagram.alwaysdata.net/">ici</a>.
                         </label>
                     </div>
                     <div class="imageContainer">
