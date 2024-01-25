@@ -72,6 +72,41 @@
     padding-bottom: 2vw;
 }
 
-.spartiatesProjectImage {
-    width: 4vw;
+#spartiatesProjectImage {
+    width: 10vw;
+    position: absolute;
+
+}
+
+#spartiatesProjectImage2 {
+    width: 10vw;
+    position: absolute;
+    display: none;
+}
+
+@keyframes spartiatesImgAnimation {
+    from {
+        left: -50%;
+        top: -10%;
+    }
+    to {
+        top: 0%;
+        left: 0%;
+        z-index: 10;
+    }
+}
+
+@keyframes disparitionImage {
+    to {
+        display: none;
+        z-index: 5;
+    }
+}
+
+.spartiatesProjectImageContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
 }

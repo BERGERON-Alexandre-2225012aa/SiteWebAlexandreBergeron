@@ -6,7 +6,8 @@ class ModelePage
 {
     public function __construct(private string $title,
                                 private string $content,
-                                private string $stylesheet = ''){}
+                                private string $stylesheet = '',
+                                private string $script = ''){}
 
     public function show(): void
     {
@@ -21,7 +22,10 @@ class ModelePage
             <?php if ($this->stylesheet !== '') { ?>
                 <link rel="stylesheet" href="/assets/styles/<?= $this->stylesheet ?>.css">
             <?php } ?>
-            <script src="/assets/scripts/script.js" defer></script>
+            <script src="/assets/scripts/main.js" defer></script>
+            <?php if ($this->script !== '') { ?>
+                <script src="/assets/scripts/<?= $this->script ?>.js" defer></script>
+            <?php } ?>
             <title>A. Bergeron - <?= $this->title?></title>
             <link rel="icon" type="image/x-icon" href="/assets/ressources/logo.ico">
         </head>

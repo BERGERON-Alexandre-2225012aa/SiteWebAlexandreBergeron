@@ -26,6 +26,10 @@ class Projets
                             <br> <br> Site en ligne accessible <a class="importantWord" href="https://spartiatejeu.alwaysdata.net/">ici</a>.
                         </label>
                     </div>
+                    <div class="spartiatesProjectImageContainer">
+                        <img id="spartiatesProjectImage" class="projectImage reveal" src="/assets/ressources/projets/spartiates_accueil.png" onclick="changeImageOnClick()">
+                        <img id="spartiatesProjectImage2" class="projectImage reveal" src="/assets/ressources/projets/spartiates_accueil.png" onclick="changeImageOnClick()">
+                    </div>
                     <div class="projectTextDiv">
                         <label class="projectSubtitle">Fonctionnalités</label>
                         <div class="projectFunctionalitiesDiv">
@@ -39,9 +43,7 @@ class Projets
                     </div>
                 </div>
                 <div class="projectImageDiv">
-                    <img class="projectImage spartiatesProjectImage reveal" src="/assets/ressources/projets/spartiates_accueil.png">
-                    <img class="projectImage spartiatesProjectImage reveal" src="/assets/ressources/projets/spartiates_quiz.png">
-                    <img class="projectImage spartiatesProjectImage reveal" src="/assets/ressources/projets/spartiates_admin.png">
+
                 </div>
             </div>
         </div>
@@ -210,6 +212,6 @@ class Projets
         </div>
 
         <?php
-        (new ModelePage('Projets', ob_get_clean(), 'projets'))->show();
+        (new ModelePage('Projets', ob_get_clean(), 'projets', 'projets'))->show();
     }
 }

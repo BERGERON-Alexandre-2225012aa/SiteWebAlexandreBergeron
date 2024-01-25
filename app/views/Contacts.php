@@ -36,6 +36,6 @@ class Contacts
         </div>
 
         <?php
-        (new ModelePage('Contacts', ob_get_clean(), 'contacts'))->show();
+        (new ModelePage('Contacts', ob_get_clean(), 'contacts', 'contacts'))->show();
     }
 }

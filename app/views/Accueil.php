@@ -66,7 +66,7 @@ class Accueil
                                     <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
                                     <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
                                     <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
-                                    <img src="/assets/ressources/accueil/etoile-grise.png" class="skillStarsImg">
+                                    <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
                                 </div>
                             </div>
                             <div class="oneSkill">
@@ -76,7 +76,7 @@ class Accueil
                                     <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
                                     <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
                                     <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
-                                    <img src="/assets/ressources/accueil/etoile-grise.png" class="skillStarsImg">
+                                    <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
                                 </div>
                             </div>
                             <div class="oneSkill">
@@ -84,7 +84,7 @@ class Accueil
                                 <div class="skillStarsDiv">
                                     <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
                                     <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
-                                    <img src="/assets/ressources/accueil/etoile-grise.png" class="skillStarsImg">
+                                    <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
                                     <img src="/assets/ressources/accueil/etoile-grise.png" class="skillStarsImg">
                                     <img src="/assets/ressources/accueil/etoile-grise.png" class="skillStarsImg">
                                 </div>
@@ -100,7 +100,7 @@ class Accueil
                                     <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
                                     <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
                                     <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
-                                    <img src="/assets/ressources/accueil/etoile-grise.png" class="skillStarsImg">
+                                    <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
                                     <img src="/assets/ressources/accueil/etoile-grise.png" class="skillStarsImg">
                                 </div>
                             </div>
@@ -110,7 +110,7 @@ class Accueil
                                     <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
                                     <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
                                     <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
-                                    <img src="/assets/ressources/accueil/etoile-grise.png" class="skillStarsImg">
+                                    <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
                                     <img src="/assets/ressources/accueil/etoile-grise.png" class="skillStarsImg">
                                 </div>
                             </div>
@@ -163,6 +163,6 @@ class Accueil
         </div>
 
         <?php
-        (new ModelePage('Accueil', ob_get_clean(), 'accueil'))->show();
+        (new ModelePage('Accueil', ob_get_clean(), 'accueil', 'accueil'))->show();
     }
 }
