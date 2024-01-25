@@ -59,7 +59,7 @@
     width: 25vw;
     height: auto;
     box-shadow: 1vh 1vh 1vh black;
-    animation: animationFloat 5s infinite;
+    animation: animationFloat 3s infinite;
 }
 
 #pokedexProjectImage {
@@ -95,13 +95,13 @@
 
 @keyframes animationFloat {
     0% {
-        top: 0%;
+        transform: translateY(0);
     }
     50% {
-        top: 4%;
+        transform: translateY(-30px);
     }
     100% {
-        top: 0%;
+        transform: translateY(0);
     }
 }
 

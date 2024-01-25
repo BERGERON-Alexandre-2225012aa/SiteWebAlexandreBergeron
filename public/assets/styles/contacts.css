@@ -33,6 +33,7 @@
     text-align: center;
     box-shadow: 0 0 1vh 1vh #1B1B1B;
     margin: 3vw;
+    animation: animationFloat 4s infinite;
 }
 
 .contactTitleDiv {
@@ -44,4 +45,16 @@
 .icon {
     width: 2vw;
     margin-left: 1vw;
+}
+
+@keyframes animationFloat {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
