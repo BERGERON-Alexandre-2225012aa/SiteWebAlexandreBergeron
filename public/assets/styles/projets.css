@@ -14,7 +14,7 @@
     font-size: 2.5vw;
     color: #00FF41;
     top: 4vh;
-    left: 1.5vw;
+    right: 25vw;
 }
 
 .projectContentDiv {
@@ -55,58 +55,55 @@
 }
 
 .projectImage {
+    position: absolute;
     width: 25vw;
     height: auto;
     box-shadow: 1vh 1vh 1vh black;
+    animation: animationFloat 5s infinite;
 }
 
-.pokedexProjectImage {
+#pokedexProjectImage {
     width: 15vw;
 }
 
-.projectImageDiv {
+.bottomDiv {
     display: flex;
+    position: relative;
     justify-content: space-around;
     width: 100%;
     padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding-bottom: 4.5vw;
 }
 
-#spartiatesProjectImage {
-    width: 10vw;
+.phoneProjectImage {
+    width: 12vw;
     position: absolute;
-
 }
 
-#spartiatesProjectImage2 {
-    width: 10vw;
-    position: absolute;
-    display: none;
+.projectImage:hover {
+    box-shadow: 0vh 0vh 5vh white;
 }
 
-@keyframes spartiatesImgAnimation {
-    from {
-        left: -50%;
-        top: -10%;
-    }
-    to {
-        top: 0%;
-        left: 0%;
-        z-index: 10;
-    }
-}
-
-@keyframes disparitionImage {
-    to {
-        display: none;
-        z-index: 5;
-    }
-}
-
-.spartiatesProjectImageContainer {
+.imageContainer {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 40%;
+}
+
+@keyframes animationFloat {
+    0% {
+        top: 0%;
+    }
+    50% {
+        top: 4%;
+    }
+    100% {
+        top: 0%;
+    }
+}
+
+#escapeTheHackProjectImage {
+    margin-top: 4vw;
 }

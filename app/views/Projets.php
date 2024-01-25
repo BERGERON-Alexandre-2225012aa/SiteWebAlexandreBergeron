@@ -12,8 +12,7 @@ class Projets
 
         <div class="mainDiv">
             <div class="backgroundDiv projectDiv">
-                <label class="projectTitle"><u>Spartiates Hockey Game</u></label>
-                <label class="projectDate">2024</label>
+                <label class="projectTitle"><u>Spartiates Hockey Game</u> - 2024</label>
                 <div class="projectContentDiv">
                     <div class="projectTextDiv">
                         <label class="projectSubtitle">Présentation</label>
@@ -26,9 +25,8 @@ class Projets
                             <br> <br> Site en ligne accessible <a class="importantWord" href="https://spartiatejeu.alwaysdata.net/">ici</a>.
                         </label>
                     </div>
-                    <div class="spartiatesProjectImageContainer">
-                        <img id="spartiatesProjectImage" class="projectImage reveal" src="/assets/ressources/projets/spartiates_accueil.png" onclick="changeImageOnClick()">
-                        <img id="spartiatesProjectImage2" class="projectImage reveal" src="/assets/ressources/projets/spartiates_accueil.png" onclick="changeImageOnClick()">
+                    <div class="imageContainer">
+                        <img id="spartiatesProjectImage" class="projectImage phoneProjectImage reveal" src="/assets/ressources/projets/spartiates_accueil.png" onclick="changeImageOnClickSpartiates()">
                     </div>
                     <div class="projectTextDiv">
                         <label class="projectSubtitle">Fonctionnalités</label>
@@ -42,25 +40,26 @@ class Projets
                         </div>
                     </div>
                 </div>
-                <div class="projectImageDiv">
-
-                </div>
+                <div class="bottomDiv"></div>
             </div>
         </div>
 
         <div class="mainDiv">
             <div class="backgroundDiv projectDiv">
-                <label class="projectTitle"><u>Croustagram</u></label>
-                <label class="projectDate">2023</label>
+                <label class="projectTitle"><u>Croustagram</u> - 2023</label>
                 <div class="projectContentDiv">
                     <div class="projectTextDiv">
                         <label class="projectSubtitle">Présentation</label>
                         <label class="projectDescriptionText">
+                            <br>
                             Croustagram est un réseau social accessible depuis le <label class="importantWord">Web</label> développé en <label class="importantWord">PHP</label>, <label class="importantWord">HTML</label>, <label class="importantWord">CSS</label> et <label class="importantWord">JavaScript</label>.
                             Chaque utilisateur inscrit a accès aux fonctionnalités d'un réseau social classique : poster, commenter, voter...
-                            <br> <br> Projet réalisé dans un cadre scolaire en collaboration avec GOUACHE Nathan, GINER Léo, LEPERLIER Maël, SALOMON Clément et SEJOURNE Victor.
-                            <br> <br> Site en ligne accessible <a class="importantWord" href="https://thecroustagram.alwaysdata.net/">ici</a>.
+                            <br> <br> <br> <br> Projet réalisé dans un cadre scolaire en collaboration avec GOUACHE Nathan, GINER Léo, LEPERLIER Maël, SALOMON Clément et SEJOURNE Victor.
+                            <br> <br> <br> Site en ligne accessible <a class="importantWord" href="https://thecroustagram.alwaysdata.net/">ici</a>.
                         </label>
+                    </div>
+                    <div class="imageContainer">
+                        <img id="croustagramProjectImage" class="projectImage phoneProjectImage reveal" src="/assets/ressources/projets/croustagram.png" onclick="changeImageOnClickCroustagram()">
                     </div>
                     <div class="projectTextDiv">
                         <label class="projectSubtitle">Fonctionnalités</label>
@@ -75,27 +74,55 @@ class Projets
                         </div>
                     </div>
                 </div>
-                <div class="projectImageDiv">
-                    <img class="projectImage reveal" src="/assets/ressources/projets/croustagram.png">
-                    <img class="projectImage reveal" src="/assets/ressources/projets/croustagram_connexion.png">
-                    <img class="projectImage reveal" src="/assets/ressources/projets/croustagram_account.png">
-                </div>
+                <div class="bottomDiv"></div>
             </div>
         </div>
 
         <div class="mainDiv">
             <div class="backgroundDiv projectDiv">
-                <label class="projectTitle"><u>KAMA Séisme</u></label>
-                <label class="projectDate">2023</label>
+                <label class="projectTitle"><u>Ovni Clicker</u> - 2023</label>
                 <div class="projectContentDiv">
                     <div class="projectTextDiv">
                         <label class="projectSubtitle">Présentation</label>
                         <label class="projectDescriptionText">
+                            <br>
+                            Un jeu "clicker" développé en <label class="importantWord">Java</label> à l'aide de la bibliothèque <label class="importantWord">JavaFX</label>.
+                            Le but est de cliquer sur la planète afin de faire apparaître des ovnis qui font augmenter le score. Le joueur peut également acheter des améliorations.
+                            <br> <br> <br> <br> <br> Projet réalisé dans mon temps libre.
+                            <br> <br> Accessible via GitHub <a class="importantWord" href="https://github.com/BERGERON-Alexandre-2225012aa/OvniClicker">ici</a>.
+                        </label>
+                    </div>
+                    <div class="imageContainer">
+                        <img id="ovniClickerProjectImage" class="projectImage reveal" src="/assets/ressources/projets/ovniclicker.png" onclick="changeImageOnClickOvniClicker()">
+                    </div>
+                    <div class="projectTextDiv">
+                        <label class="projectSubtitle">Fonctionnalités</label>
+                        <div class="projectFunctionalitiesDiv">
+                            <label class="projectDescriptionText">• Possibilité de sauvegarder et de charger une sauvegarde</label>
+                            <label class="projectDescriptionText">• Possibilité d'acheter des améliorations</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottomDiv"></div>
+            </div>
+        </div>
+
+        <div class="mainDiv">
+            <div class="backgroundDiv projectDiv">
+                <label class="projectTitle"><u>KAMA Séisme</u> - 2023</label>
+                <div class="projectContentDiv">
+                    <div class="projectTextDiv">
+                        <label class="projectSubtitle">Présentation</label>
+                        <label class="projectDescriptionText">
+                            <br>
                             Il s'agit d'une application développée en <label class="importantWord">Java</label> à l'aide de la bibliothèque <label class="importantWord">JavaFX</label>.
                             Elle permet l'utilisation de fichiers au format <label class="importantWord">.csv</label> contenant des données liées à des séismes enregistrés sur le site <a href="https://www.sisfrance.net/" class="importantWord">SisFrance.net</a>.
-                            <br> <br> Projet réalisé dans un cadre scolaire en collaboration avec ALI Mdallah, BIHI Ayoub, et FERRIER Killian.
-                            <br> <br> Accessible via GitHub <a class="importantWord" href="https://github.com/BERGERON-Alexandre-2225012aa/S201_ProjetSeisme">ici</a>.
+                            <br> <br> <br> <br> <br> Projet réalisé dans un cadre scolaire en collaboration avec ALI Mdallah, BIHI Ayoub, et FERRIER Killian.
+                            <br> <br> <br> Accessible via GitHub <a class="importantWord" href="https://github.com/BERGERON-Alexandre-2225012aa/S201_ProjetSeisme">ici</a>.
                         </label>
+                    </div>
+                    <div class="imageContainer">
+                        <img id="kamaSeismeProjectImage" class="projectImage reveal" src="/assets/ressources/projets/kamaseisme.png" onclick="changeImageOnClickKamaSeisme()">
                     </div>
                     <div class="projectTextDiv">
                         <label class="projectSubtitle">Fonctionnalités</label>
@@ -108,18 +135,13 @@ class Projets
                         </div>
                     </div>
                 </div>
-                <div class="projectImageDiv">
-                    <img class="projectImage reveal" src="/assets/ressources/projets/kamaseisme.png">
-                    <img class="projectImage reveal" src="/assets/ressources/projets/kamaseisme_stats.png">
-                    <img class="projectImage reveal" src="/assets/ressources/projets/kamaseisme_map.png">
-                </div>
+                <div class="bottomDiv"></div>
             </div>
         </div>
 
         <div class="mainDiv">
             <div class="backgroundDiv projectDiv">
-                <label class="projectTitle"><u>Escape the Hack</u></label>
-                <label class="projectDate">2023</label>
+                <label class="projectTitle"><u>Escape the Hack</u> - 2023</label>
                 <div class="projectContentDiv">
                     <div class="projectTextDiv">
                         <label class="projectSubtitle">Présentation</label>
@@ -132,6 +154,9 @@ class Projets
                             <br> Code source accessible via GitHub <a class="importantWord" href="https://github.com/singesinge/SAE-R.2.06">ici</a>.
                         </label>
                     </div>
+                    <div class="imageContainer">
+                        <img id="escapeTheHackProjectImage" class="projectImage reveal" src="/assets/ressources/projets/escapethehack.png" onclick="changeImageOnClickEscapeTheHack()">
+                    </div>
                     <div class="projectTextDiv">
                         <label class="projectSubtitle">Fonctionnalités</label>
                         <div class="projectFunctionalitiesDiv">
@@ -143,56 +168,25 @@ class Projets
                         </div>
                     </div>
                 </div>
-                <div class="projectImageDiv">
-                    <img class="projectImage reveal" src="/assets/ressources/projets/escapethehack.png">
-                    <img class="projectImage reveal" src="/assets/ressources/projets/escapethehack_demarrage.png">
-                    <img class="projectImage reveal" src="/assets/ressources/projets/escapethehack_jeu.png">
-                </div>
+                <div class="bottomDiv"></div>
             </div>
         </div>
 
         <div class="mainDiv">
             <div class="backgroundDiv projectDiv">
-                <label class="projectTitle"><u>Ovni Clicker</u></label>
-                <label class="projectDate">2023</label>
+                <label class="projectTitle"><u>Pokédex</u> - 2022</label>
                 <div class="projectContentDiv">
                     <div class="projectTextDiv">
                         <label class="projectSubtitle">Présentation</label>
                         <label class="projectDescriptionText">
-                            Un jeu "clicker" développé en <label class="importantWord">Java</label> à l'aide de la bibliothèque <label class="importantWord">JavaFX</label>.
-                            Le but est de cliquer sur la planète afin de faire apparaître des ovnis qui font augmenter le score. Le joueur peut également acheter des améliorations.
-                            <br> <br> Projet réalisé dans mon temps libre.
-                            <br> <br> Accessible via GitHub <a class="importantWord" href="https://github.com/BERGERON-Alexandre-2225012aa/OvniClicker">ici</a>.
-                        </label>
-                    </div>
-                    <div class="projectTextDiv">
-                        <label class="projectSubtitle">Fonctionnalités</label>
-                        <div class="projectFunctionalitiesDiv">
-                            <label class="projectDescriptionText">• Possibilité de sauvegarder et de charger une sauvegarde</label>
-                            <label class="projectDescriptionText">• Possibilité d'acheter des améliorations</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="projectImageDiv">
-                    <img class="projectImage reveal" src="/assets/ressources/projets/ovniclicker.png">
-                    <img class="projectImage reveal" src="/assets/ressources/projets/ovniclicker_auto.png">
-                    <img class="projectImage reveal" src="/assets/ressources/projets/ovniclicker_menu.png">
-                </div>
-            </div>
-        </div>
-
-        <div class="mainDiv">
-            <div class="backgroundDiv projectDiv">
-                <label class="projectTitle"><u>Pokédex</u></label>
-                <label class="projectDate">2022</label>
-                <div class="projectContentDiv">
-                    <div class="projectTextDiv">
-                        <label class="projectSubtitle">Présentation</label>
-                        <label class="projectDescriptionText">
+                            <br> <br>
                             Une application développée en <label class="importantWord">Python</label> à l'aide de la bibliothèque <label class="importantWord">Tkinter</label> qui permet de lister toutes les créatures de l'univers Pokémon de la première à la huitième génération.
-                            <br> <br> Projet réalisé dans mon temps libre.
-                            <br> <br> Accessible via MediaFire <a class="importantWord" href="https://www.mediafire.com/file/12430aig7gbzlf1/Pokedex_V3.0_%2528python%2529.zip/file">ici</a>.
+                            <br> <br> <br> <br> <br> Projet réalisé dans mon temps libre.
+                            <br> <br> <br> Accessible via MediaFire <a class="importantWord" href="https://www.mediafire.com/file/12430aig7gbzlf1/Pokedex_V3.0_%2528python%2529.zip/file">ici</a>.
                         </label>
+                    </div>
+                    <div class="imageContainer">
+                        <img id="pokedexProjectImage" class="projectImage reveal" src="/assets/ressources/projets/pokedex.png" onclick="changeImageOnClickPokedex()">
                     </div>
                     <div class="projectTextDiv">
                         <label class="projectSubtitle">Fonctionnalités</label>
@@ -203,11 +197,7 @@ class Projets
                         </div>
                     </div>
                 </div>
-                <div class="projectImageDiv">
-                    <img class="projectImage pokedexProjectImage reveal" src="/assets/ressources/projets/pokedex.png">
-                    <img class="projectImage pokedexProjectImage reveal" src="/assets/ressources/projets/pokedex_recherche.png">
-                    <img class="projectImage pokedexProjectImage reveal" src="/assets/ressources/projets/pokedex_affichage.png">
-                </div>
+                <div class="bottomDiv"></div>
             </div>
         </div>
 
