@@ -98,7 +98,7 @@
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-1.5vw);
+        transform: translateY(-2.5vh);
     }
     100% {
         transform: translateY(0);
