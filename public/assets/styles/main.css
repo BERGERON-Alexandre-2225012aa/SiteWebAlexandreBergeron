@@ -139,7 +139,7 @@ header {
     display: none;
 }
 
-@media  (max-width: 960px) {
+@media  (max-width: 600px) {
     #popUpMobile {
         display: flex;
         flex-direction: column;
