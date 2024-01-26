@@ -14,7 +14,7 @@ class ModelePage
         ?>
         <html lang="fr">
         <head>
-            <meta name="google-site-verification" content="_pnlU29nynGkGXBLZpOj2xSqbPqGWmXyJyXiCjy2-9s" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta charset="UTF-8">
             <meta name="titre" content="Accueil">
             <meta name="description" content="Accueil">
@@ -30,6 +30,10 @@ class ModelePage
             <link rel="icon" type="image/x-icon" href="/assets/ressources/logo.ico">
         </head>
         <body>
+        <div id="popUpMobile">
+            <label id="popUpLabel">Veuillez tourner votre écran !</label>
+            <img id="turnPhone" src="/assets/ressources/turnphone.png">
+        </div>
         <header>
             <label class="headerLabel">A. Bergeron</label>
             <div class="headerDiv">

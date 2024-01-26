@@ -134,3 +134,32 @@ header {
     transform: translateY(0);
     transition: 1.5s cubic-bezier(.5, 0, 0, 1);
 }
+
+#popUpMobile {
+    display: none;
+}
+
+@media  (max-width: 960px) {
+    #popUpMobile {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        font-size: 10vw;
+        color: #A6FFBD;
+        background-color: #272727;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #popUpLabel {
+        text-align: center;
+    }
+
+    #turnPhone {
+        margin-top: 10vw;
+        width: 40vw;
+    }
+}
