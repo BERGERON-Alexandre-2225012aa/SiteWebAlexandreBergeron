@@ -98,7 +98,7 @@
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-30px);
+        transform: translateY(-1.5vw);
     }
     100% {
         transform: translateY(0);
