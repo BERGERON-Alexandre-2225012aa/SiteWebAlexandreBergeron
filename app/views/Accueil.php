@@ -135,7 +135,7 @@ class Accueil
                                     <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
                                     <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
                                     <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
-                                    <img src="/assets/ressources/accueil/etoile-grise.png" class="skillStarsImg">
+                                    <img src="/assets/ressources/accueil/etoile-jaune.png" class="skillStarsImg">
                                     <img src="/assets/ressources/accueil/etoile-grise.png" class="skillStarsImg">
                                 </div>
                             </div>
