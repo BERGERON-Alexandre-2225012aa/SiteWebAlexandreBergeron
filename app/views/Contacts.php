@@ -2,8 +2,6 @@
 
 namespace app\views;
 
-use app\models\ModelePage;
-
 class Contacts
 {
 
@@ -32,10 +30,10 @@ class Contacts
                     <br><a href="https://www.linkedin.com/in/alexandre-bergeron-2901542a0/" class="importantWord">Alexandre Bergeron</a>
                 </label>
             </div>
-            <img class="contactImage reveal" src="/assets/ressources/contacts/alexandre_mer_2.jpg">
+            <img class="contactImage reveal" src="/assets/ressources/contacts/alexandre_fleurs.jpg">
         </div>
 
         <?php
-        (new ModelePage('Contacts', ob_get_clean(), 'contacts', 'contacts'))->show();
+        (new View('Contacts', ob_get_clean(), 'contacts', 'contacts'))->show();
     }
 }

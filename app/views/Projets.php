@@ -2,8 +2,6 @@
 
 namespace app\views;
 
-use app\models\ModelePage;
-
 class Projets
 {
     public function show(): void {
@@ -202,6 +200,6 @@ class Projets
         </div>
 
         <?php
-        (new ModelePage('Projets', ob_get_clean(), 'projets', 'projets'))->show();
+        (new View('Projets', ob_get_clean(), 'projets', 'projets'))->show();
     }
 }

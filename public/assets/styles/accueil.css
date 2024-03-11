@@ -133,14 +133,3 @@ iframe {
     box-shadow: -1vh 1vh 1vh black;
 }
 
-@keyframes animationFloat {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-2.5vh);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}

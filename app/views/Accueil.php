@@ -2,8 +2,6 @@
 
 namespace app\views;
 
-use app\models\ModelePage;
-
 class Accueil
 {
     public function show(): void {
@@ -12,9 +10,9 @@ class Accueil
 
         <div class="mainDiv">
             <div class="backgroundDiv right">
-                <img class="accueilImg" src="/assets/ressources/accueil/alexandre_lavandes.jpg">
+                <img class="accueilImg" src="/assets/ressources/accueil/alexandre_cocotiers.jpg">
             </div>
-            <label class="accueilLabel rightLabel greenLabel reveal">
+            <label class="accueilLabel rightLabel blueLabel reveal">
                 Bonjour, je suis Alexandre Bergeron !
                 <br>
                 <br>J'ai 18 ans, et je suis passionné d'informatique.
@@ -29,9 +27,9 @@ class Accueil
 
         <div class="mainDiv">
             <div class="backgroundDiv left">
-                <img class="accueilImg" src="/assets/ressources/accueil/alexandre_mer.jpg">
+                <img class="accueilImg" src="/assets/ressources/accueil/alexandre_lavandes.jpg">
             </div>
-            <label class="accueilLabel leftLabel blueLabel reveal">
+            <label class="accueilLabel leftLabel greenLabel reveal">
                 J'ai obtenu mon
                 <label class="importantWord"> Baccalauréat Général </label>
                 spécialité Numérique et Sciences de l'Informatique et Mathématiques avec la mention
@@ -163,6 +161,6 @@ class Accueil
         </div>
 
         <?php
-        (new ModelePage('Accueil', ob_get_clean(), 'accueil', 'accueil'))->show();
+        (new View('Accueil', ob_get_clean(), 'accueil', 'accueil'))->show();
     }
 }
