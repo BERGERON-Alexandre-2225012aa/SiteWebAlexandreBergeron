@@ -47,3 +47,41 @@
     margin-left: 1vw;
 }
 
+@media  (max-width: 600px) {
+    .contactImage {
+        position: relative;
+        right: auto;
+        width: 90%;
+        height: auto;
+
+    }
+
+    .contactLabel {
+        font-size: 4.5vw;
+        width: 80%;
+        max-width: 80%;
+        height: auto;
+        padding:5vw;
+        margin: 3vw;
+    }
+    .contactDiv {
+        position: absolute;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .icon {
+        width: 5vw;
+        margin-left: 3vw;
+    }
+    .contactBackground {
+        background-color: transparent;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 30vw;
+    }
+}

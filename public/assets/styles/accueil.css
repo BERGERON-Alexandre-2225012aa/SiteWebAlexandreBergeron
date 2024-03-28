@@ -133,3 +133,52 @@ iframe {
     box-shadow: -1vh 1vh 1vh black;
 }
 
+@media  (max-width: 600px) {
+
+    .accueilImg {
+        width: 100%;
+    }
+
+    .accueilLabel {
+        font-size: 4vw;
+        max-width: 80%;
+        width: 100%;
+    }
+
+    .leftLabel {
+        left: 6%;
+    }
+
+    .rightLabel {
+        right: 6%;
+    }
+
+    .skillsTitle {
+        font-size: 5vw;
+        padding-bottom: 5vh;
+    }
+
+    .allSkills {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .skillBox {
+        width: 80%;
+        padding: 5vw;
+        margin-bottom: 5vw;
+    }
+    .skillName {
+        font-size: 4vw;
+    }
+    .skillStarsImg {
+        width: 10vw;
+    }
+    iframe {
+        width: 100vw;
+        height: auto;
+    }
+    .youtubeLabel {
+        display: none;
+    }
+}

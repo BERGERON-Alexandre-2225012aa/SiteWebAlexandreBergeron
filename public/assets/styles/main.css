@@ -151,7 +151,9 @@ header {
     }
 }
 
+
 @media  (max-width: 600px) {
+    /*
     #popUpMobile {
         display: flex;
         flex-direction: column;
@@ -173,5 +175,29 @@ header {
     #turnPhone {
         margin-top: 10vw;
         width: 40vw;
+    }
+    */
+
+    .headerLabel {
+        font-size: 3.8vw;
+    }
+
+    .headerButton {
+        font-size: 3.8vw;
+    }
+    header {
+        height: 15vw;
+        scroll-snap-align: none;
+        scroll-snap-stop: unset;
+    }
+    .mainDiv {
+        height: auto;
+        scroll-snap-align: none;
+        scroll-snap-stop: unset;
+        margin: 5vw;
+        margin-bottom: 10vw;
+    }
+    body {
+        padding-bottom: 3vw;
     }
 }
