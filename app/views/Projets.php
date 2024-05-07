@@ -199,6 +199,10 @@ class Projets
             </div>
         </div>
 
+        <footer>
+            <img class="boutonVersHautPage" src="/assets/ressources/flechehaut.png">
+        </footer>
+
         <?php
         (new View('Projets', ob_get_clean(), 'projets', 'projets'))->show();
     }

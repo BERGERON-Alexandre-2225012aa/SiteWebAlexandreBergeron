@@ -1,7 +1,13 @@
+html, body {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     background: #1B1B1B;
     font-family: "Microsoft JhengHei UI";
+    display: flex;
+    flex-direction: column;
 }
 
 html {
@@ -139,6 +145,10 @@ header {
     display: none;
 }
 
+.floating {
+    animation: animationFloat 3s infinite;
+}
+
 @keyframes animationFloat {
     0% {
         transform: translateY(0);
@@ -151,6 +161,25 @@ header {
     }
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boutonVersHautPage {
+    width: 3%;
+    padding: 2vw;
+    border-radius: 50%;
+    border: solid #A6FFBD;
+    background-color: #272727;
+    margin: 0;
+    margin-bottom: 3vw;
+}
+
+.boutonVersHautPage:hover {
+    background-color: #4f4f4f;
+}
 
 @media  (max-width: 600px) {
     /*
@@ -199,5 +228,10 @@ header {
     }
     body {
         padding-bottom: 3vw;
+    }
+
+    .boutonVersHautPage {
+        width: 5%;
+        padding: 4vw;
     }
 }

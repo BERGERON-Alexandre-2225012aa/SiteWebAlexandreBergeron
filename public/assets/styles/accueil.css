@@ -27,7 +27,6 @@
     height: auto;
     padding:4vw;
     text-align: center;
-    animation: animationFloat 3s infinite ;
 }
 
 .leftLabel {
@@ -133,6 +132,48 @@ iframe {
     box-shadow: -1vh 1vh 1vh black;
 }
 
+.projetsImg {
+    transition: 0.8s;
+    width: 100%;
+}
+
+.projetsLabel {
+    right: 50%;
+    max-width: 40%;
+    padding: 3vw;
+}
+
+.projetsButton {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    padding: 0vw;
+    padding-right: 5vw;
+    opacity: 0;
+    transition: 0.8s;
+    font-size: 2vw;
+    font-family: "Microsoft JhengHei UI";
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+}
+
+.projetsButton:hover {
+    opacity: 1;
+}
+
+.carousel {
+    width: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carouselContainer {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+
 @media  (max-width: 600px) {
 
     .accueilImg {
@@ -180,5 +221,19 @@ iframe {
     }
     .youtubeLabel {
         display: none;
+    }
+    .carousel {
+        width: 100%;
+    }
+    .projetsLabel {
+        display: none;
+    }
+    .projetsButton {
+        opacity: 1;
+        width: 100%;
+        font-size: 6vw;
+    }
+    .projetsImg {
+        opacity: 0.5;
     }
 }

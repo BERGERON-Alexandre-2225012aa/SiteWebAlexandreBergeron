@@ -19,3 +19,13 @@ const observer = new IntersectionObserver(handleIntersect, options)
 document.querySelectorAll('.reveal').forEach(function (r) {
     observer.observe(r)
 })
+
+
+const boutonVersHaut = document.querySelector('.boutonVersHautPage');
+
+boutonVersHaut.addEventListener('click', function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
